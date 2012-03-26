@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2725D377151FF2A000AA12F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D376151FF2A000AA12F0 /* UIKit.framework */; };
+		2725D379151FF2A000AA12F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D378151FF2A000AA12F0 /* Foundation.framework */; };
+		2725D37B151FF2A000AA12F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D37A151FF2A000AA12F0 /* CoreGraphics.framework */; };
+		2725D381151FF2A000AA12F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2725D37F151FF2A000AA12F0 /* InfoPlist.strings */; };
+		2725D383151FF2A000AA12F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D382151FF2A000AA12F0 /* main.m */; };
+		2725D387151FF2A000AA12F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D386151FF2A000AA12F0 /* AppDelegate.m */; };
+		2725D38F151FF2A000AA12F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D38E151FF2A000AA12F0 /* SenTestingKit.framework */; };
+		2725D390151FF2A000AA12F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D376151FF2A000AA12F0 /* UIKit.framework */; };
+		2725D391151FF2A000AA12F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D378151FF2A000AA12F0 /* Foundation.framework */; };
+		2725D399151FF2A000AA12F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2725D397151FF2A000AA12F0 /* InfoPlist.strings */; };
+		2725D39C151FF2A000AA12F0 /* IVMAwesomesauceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D39B151FF2A000AA12F0 /* IVMAwesomesauceTests.m */; };
+		2725D3B7151FF45500AA12F0 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3AE151FF45500AA12F0 /* NextViewController.xib */; };
+		2725D3B8151FF45500AA12F0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3AF151FF45500AA12F0 /* RootViewController.xib */; };
+		2725D3BA151FF45500AA12F0 /* ASAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B1151FF45500AA12F0 /* ASAnimatedTransition.m */; };
+		2725D3BB151FF45500AA12F0 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B2151FF45500AA12F0 /* AnimationView.m */; };
+		2725D3BC151FF45500AA12F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B3151FF45500AA12F0 /* main.m */; };
+		2725D3BD151FF45500AA12F0 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B4151FF45500AA12F0 /* NextViewController.m */; };
+		2725D3BE151FF45500AA12F0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B5151FF45500AA12F0 /* RootViewController.m */; };
+		2725D3BF151FF45500AA12F0 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B6151FF45500AA12F0 /* UIView+Snapshot.m */; };
+		2725D3C0151FF57500AA12F0 /* ASAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B1151FF45500AA12F0 /* ASAnimatedTransition.m */; };
+		2725D3C1151FF57500AA12F0 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B2151FF45500AA12F0 /* AnimationView.m */; };
+		2725D3C2151FF57500AA12F0 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B4151FF45500AA12F0 /* NextViewController.m */; };
+		2725D3C3151FF57500AA12F0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B5151FF45500AA12F0 /* RootViewController.m */; };
+		2725D3C4151FF57500AA12F0 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725D3B6151FF45500AA12F0 /* UIView+Snapshot.m */; };
+		2725D3C6151FF5E000AA12F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2725D3C5151FF5E000AA12F0 /* QuartzCore.framework */; };
+		2725D3C7151FF61B00AA12F0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3AF151FF45500AA12F0 /* RootViewController.xib */; };
+		2725D3C8151FF61E00AA12F0 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3AE151FF45500AA12F0 /* NextViewController.xib */; };
+		2725D3CA151FF6C000AA12F0 /* AwesomeSauce.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3C9151FF6C000AA12F0 /* AwesomeSauce.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2725D392151FF2A000AA12F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2725D369151FF2A000AA12F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2725D371151FF2A000AA12F0;
+			remoteInfo = IVMAwesomesauce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2725D372151FF2A000AA12F0 /* IVMAwesomesauce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVMAwesomesauce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2725D376151FF2A000AA12F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2725D378151FF2A000AA12F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2725D37A151FF2A000AA12F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2725D37E151FF2A000AA12F0 /* IVMAwesomesauce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IVMAwesomesauce-Info.plist"; sourceTree = "<group>"; };
+		2725D380151FF2A000AA12F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2725D382151FF2A000AA12F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2725D384151FF2A000AA12F0 /* IVMAwesomesauce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IVMAwesomesauce-Prefix.pch"; sourceTree = "<group>"; };
+		2725D385151FF2A000AA12F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2725D386151FF2A000AA12F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2725D38D151FF2A000AA12F0 /* IVMAwesomesauceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IVMAwesomesauceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2725D38E151FF2A000AA12F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2725D396151FF2A000AA12F0 /* IVMAwesomesauceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IVMAwesomesauceTests-Info.plist"; sourceTree = "<group>"; };
+		2725D398151FF2A000AA12F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2725D39A151FF2A000AA12F0 /* IVMAwesomesauceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVMAwesomesauceTests.h; sourceTree = "<group>"; };
+		2725D39B151FF2A000AA12F0 /* IVMAwesomesauceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVMAwesomesauceTests.m; sourceTree = "<group>"; };
+		2725D3A9151FF45500AA12F0 /* ASAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnimatedTransition.h; sourceTree = "<group>"; };
+		2725D3AA151FF45500AA12F0 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		2725D3AB151FF45500AA12F0 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2725D3AC151FF45500AA12F0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2725D3AD151FF45500AA12F0 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		2725D3AE151FF45500AA12F0 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		2725D3AF151FF45500AA12F0 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		2725D3B1151FF45500AA12F0 /* ASAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnimatedTransition.m; sourceTree = "<group>"; };
+		2725D3B2151FF45500AA12F0 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		2725D3B3151FF45500AA12F0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2725D3B4151FF45500AA12F0 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		2725D3B5151FF45500AA12F0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2725D3B6151FF45500AA12F0 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		2725D3C5151FF5E000AA12F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2725D3C9151FF6C000AA12F0 /* AwesomeSauce.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AwesomeSauce.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2725D36F151FF2A000AA12F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2725D3C6151FF5E000AA12F0 /* QuartzCore.framework in Frameworks */,
+				2725D377151FF2A000AA12F0 /* UIKit.framework in Frameworks */,
+				2725D379151FF2A000AA12F0 /* Foundation.framework in Frameworks */,
+				2725D37B151FF2A000AA12F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2725D389151FF2A000AA12F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2725D38F151FF2A000AA12F0 /* SenTestingKit.framework in Frameworks */,
+				2725D390151FF2A000AA12F0 /* UIKit.framework in Frameworks */,
+				2725D391151FF2A000AA12F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2725D367151FF2A000AA12F0 = {
+			isa = PBXGroup;
+			children = (
+				2725D3C5151FF5E000AA12F0 /* QuartzCore.framework */,
+				2725D37C151FF2A000AA12F0 /* IVMAwesomesauce */,
+				2725D394151FF2A000AA12F0 /* IVMAwesomesauceTests */,
+				2725D375151FF2A000AA12F0 /* Frameworks */,
+				2725D373151FF2A000AA12F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2725D373151FF2A000AA12F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2725D372151FF2A000AA12F0 /* IVMAwesomesauce.app */,
+				2725D38D151FF2A000AA12F0 /* IVMAwesomesauceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2725D375151FF2A000AA12F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2725D376151FF2A000AA12F0 /* UIKit.framework */,
+				2725D378151FF2A000AA12F0 /* Foundation.framework */,
+				2725D37A151FF2A000AA12F0 /* CoreGraphics.framework */,
+				2725D38E151FF2A000AA12F0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2725D37C151FF2A000AA12F0 /* IVMAwesomesauce */ = {
+			isa = PBXGroup;
+			children = (
+				2725D3C9151FF6C000AA12F0 /* AwesomeSauce.jpeg */,
+				2725D385151FF2A000AA12F0 /* AppDelegate.h */,
+				2725D386151FF2A000AA12F0 /* AppDelegate.m */,
+				2725D3A9151FF45500AA12F0 /* ASAnimatedTransition.h */,
+				2725D3B1151FF45500AA12F0 /* ASAnimatedTransition.m */,
+				2725D3AA151FF45500AA12F0 /* AnimationView.h */,
+				2725D3B2151FF45500AA12F0 /* AnimationView.m */,
+				2725D3B3151FF45500AA12F0 /* main.m */,
+				2725D3AB151FF45500AA12F0 /* NextViewController.h */,
+				2725D3B4151FF45500AA12F0 /* NextViewController.m */,
+				2725D3AE151FF45500AA12F0 /* NextViewController.xib */,
+				2725D3AC151FF45500AA12F0 /* RootViewController.h */,
+				2725D3B5151FF45500AA12F0 /* RootViewController.m */,
+				2725D3AF151FF45500AA12F0 /* RootViewController.xib */,
+				2725D3AD151FF45500AA12F0 /* UIView+Snapshot.h */,
+				2725D3B6151FF45500AA12F0 /* UIView+Snapshot.m */,
+				2725D37D151FF2A000AA12F0 /* Supporting Files */,
+			);
+			path = IVMAwesomesauce;
+			sourceTree = "<group>";
+		};
+		2725D37D151FF2A000AA12F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2725D37E151FF2A000AA12F0 /* IVMAwesomesauce-Info.plist */,
+				2725D37F151FF2A000AA12F0 /* InfoPlist.strings */,
+				2725D382151FF2A000AA12F0 /* main.m */,
+				2725D384151FF2A000AA12F0 /* IVMAwesomesauce-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2725D394151FF2A000AA12F0 /* IVMAwesomesauceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2725D39A151FF2A000AA12F0 /* IVMAwesomesauceTests.h */,
+				2725D39B151FF2A000AA12F0 /* IVMAwesomesauceTests.m */,
+				2725D395151FF2A000AA12F0 /* Supporting Files */,
+			);
+			path = IVMAwesomesauceTests;
+			sourceTree = "<group>";
+		};
+		2725D395151FF2A000AA12F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2725D396151FF2A000AA12F0 /* IVMAwesomesauceTests-Info.plist */,
+				2725D397151FF2A000AA12F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2725D371151FF2A000AA12F0 /* IVMAwesomesauce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2725D39F151FF2A000AA12F0 /* Build configuration list for PBXNativeTarget "IVMAwesomesauce" */;
+			buildPhases = (
+				2725D36E151FF2A000AA12F0 /* Sources */,
+				2725D36F151FF2A000AA12F0 /* Frameworks */,
+				2725D370151FF2A000AA12F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IVMAwesomesauce;
+			productName = IVMAwesomesauce;
+			productReference = 2725D372151FF2A000AA12F0 /* IVMAwesomesauce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2725D38C151FF2A000AA12F0 /* IVMAwesomesauceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2725D3A2151FF2A000AA12F0 /* Build configuration list for PBXNativeTarget "IVMAwesomesauceTests" */;
+			buildPhases = (
+				2725D388151FF2A000AA12F0 /* Sources */,
+				2725D389151FF2A000AA12F0 /* Frameworks */,
+				2725D38A151FF2A000AA12F0 /* Resources */,
+				2725D38B151FF2A000AA12F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2725D393151FF2A000AA12F0 /* PBXTargetDependency */,
+			);
+			name = IVMAwesomesauceTests;
+			productName = IVMAwesomesauceTests;
+			productReference = 2725D38D151FF2A000AA12F0 /* IVMAwesomesauceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2725D369151FF2A000AA12F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Instant Voodoo Magic";
+			};
+			buildConfigurationList = 2725D36C151FF2A000AA12F0 /* Build configuration list for PBXProject "IVMAwesomesauce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2725D367151FF2A000AA12F0;
+			productRefGroup = 2725D373151FF2A000AA12F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2725D371151FF2A000AA12F0 /* IVMAwesomesauce */,
+				2725D38C151FF2A000AA12F0 /* IVMAwesomesauceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2725D370151FF2A000AA12F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2725D381151FF2A000AA12F0 /* InfoPlist.strings in Resources */,
+				2725D3C7151FF61B00AA12F0 /* RootViewController.xib in Resources */,
+				2725D3C8151FF61E00AA12F0 /* NextViewController.xib in Resources */,
+				2725D3CA151FF6C000AA12F0 /* AwesomeSauce.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2725D38A151FF2A000AA12F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2725D399151FF2A000AA12F0 /* InfoPlist.strings in Resources */,
+				2725D3B7151FF45500AA12F0 /* NextViewController.xib in Resources */,
+				2725D3B8151FF45500AA12F0 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2725D38B151FF2A000AA12F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2725D36E151FF2A000AA12F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2725D383151FF2A000AA12F0 /* main.m in Sources */,
+				2725D387151FF2A000AA12F0 /* AppDelegate.m in Sources */,
+				2725D3C0151FF57500AA12F0 /* ASAnimatedTransition.m in Sources */,
+				2725D3C1151FF57500AA12F0 /* AnimationView.m in Sources */,
+				2725D3C2151FF57500AA12F0 /* NextViewController.m in Sources */,
+				2725D3C3151FF57500AA12F0 /* RootViewController.m in Sources */,
+				2725D3C4151FF57500AA12F0 /* UIView+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2725D388151FF2A000AA12F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2725D39C151FF2A000AA12F0 /* IVMAwesomesauceTests.m in Sources */,
+				2725D3BA151FF45500AA12F0 /* ASAnimatedTransition.m in Sources */,
+				2725D3BB151FF45500AA12F0 /* AnimationView.m in Sources */,
+				2725D3BC151FF45500AA12F0 /* main.m in Sources */,
+				2725D3BD151FF45500AA12F0 /* NextViewController.m in Sources */,
+				2725D3BE151FF45500AA12F0 /* RootViewController.m in Sources */,
+				2725D3BF151FF45500AA12F0 /* UIView+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2725D393151FF2A000AA12F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2725D371151FF2A000AA12F0 /* IVMAwesomesauce */;
+			targetProxy = 2725D392151FF2A000AA12F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2725D37F151FF2A000AA12F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2725D380151FF2A000AA12F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2725D397151FF2A000AA12F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2725D398151FF2A000AA12F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2725D39D151FF2A000AA12F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2725D39E151FF2A000AA12F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2725D3A0151FF2A000AA12F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IVMAwesomesauce/IVMAwesomesauce-Prefix.pch";
+				INFOPLIST_FILE = "IVMAwesomesauce/IVMAwesomesauce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2725D3A1151FF2A000AA12F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IVMAwesomesauce/IVMAwesomesauce-Prefix.pch";
+				INFOPLIST_FILE = "IVMAwesomesauce/IVMAwesomesauce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2725D3A3151FF2A000AA12F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IVMAwesomesauce.app/IVMAwesomesauce";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IVMAwesomesauce/IVMAwesomesauce-Prefix.pch";
+				INFOPLIST_FILE = "IVMAwesomesauceTests/IVMAwesomesauceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2725D3A4151FF2A000AA12F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IVMAwesomesauce.app/IVMAwesomesauce";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IVMAwesomesauce/IVMAwesomesauce-Prefix.pch";
+				INFOPLIST_FILE = "IVMAwesomesauceTests/IVMAwesomesauceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2725D36C151FF2A000AA12F0 /* Build configuration list for PBXProject "IVMAwesomesauce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2725D39D151FF2A000AA12F0 /* Debug */,
+				2725D39E151FF2A000AA12F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2725D39F151FF2A000AA12F0 /* Build configuration list for PBXNativeTarget "IVMAwesomesauce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2725D3A0151FF2A000AA12F0 /* Debug */,
+				2725D3A1151FF2A000AA12F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2725D3A2151FF2A000AA12F0 /* Build configuration list for PBXNativeTarget "IVMAwesomesauceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2725D3A3151FF2A000AA12F0 /* Debug */,
+				2725D3A4151FF2A000AA12F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2725D369151FF2A000AA12F0 /* Project object */;
+}
