@@ -35,6 +35,10 @@
 		2725D3C7151FF61B00AA12F0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3AF151FF45500AA12F0 /* RootViewController.xib */; };
 		2725D3C8151FF61E00AA12F0 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3AE151FF45500AA12F0 /* NextViewController.xib */; };
 		2725D3CA151FF6C000AA12F0 /* AwesomeSauce.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2725D3C9151FF6C000AA12F0 /* AwesomeSauce.jpeg */; };
+		274E816F1555C4A300BFB012 /* KnockoffTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E816E1555C4A300BFB012 /* KnockoffTableViewController.m */; };
+		274E81731555C4C500BFB012 /* UIView+ResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E81721555C4C500BFB012 /* UIView+ResignFirstResponder.m */; };
+		2759AC8D1531126E009BAFFF /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759AC8C1531126E009BAFFF /* HeaderView.m */; };
+		2759AC9015311295009BAFFF /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2759AC8F15311295009BAFFF /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,13 @@
 		2725D3B6151FF45500AA12F0 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		2725D3C5151FF5E000AA12F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2725D3C9151FF6C000AA12F0 /* AwesomeSauce.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AwesomeSauce.jpeg; sourceTree = "<group>"; };
+		274E816D1555C4A300BFB012 /* KnockoffTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnockoffTableViewController.h; sourceTree = "<group>"; };
+		274E816E1555C4A300BFB012 /* KnockoffTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnockoffTableViewController.m; sourceTree = "<group>"; };
+		274E81711555C4C500BFB012 /* UIView+ResignFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ResignFirstResponder.h"; sourceTree = "<group>"; };
+		274E81721555C4C500BFB012 /* UIView+ResignFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ResignFirstResponder.m"; sourceTree = "<group>"; };
+		2759AC8B1531126E009BAFFF /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		2759AC8C1531126E009BAFFF /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		2759AC8F15311295009BAFFF /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +151,8 @@
 		2725D37C151FF2A000AA12F0 /* IVMAwesomesauce */ = {
 			isa = PBXGroup;
 			children = (
+				2759AC8B1531126E009BAFFF /* HeaderView.h */,
+				2759AC8C1531126E009BAFFF /* HeaderView.m */,
 				2725D3C9151FF6C000AA12F0 /* AwesomeSauce.jpeg */,
 				2725D385151FF2A000AA12F0 /* AppDelegate.h */,
 				2725D386151FF2A000AA12F0 /* AppDelegate.m */,
@@ -156,7 +169,12 @@
 				2725D3AF151FF45500AA12F0 /* RootViewController.xib */,
 				2725D3AD151FF45500AA12F0 /* UIView+Snapshot.h */,
 				2725D3B6151FF45500AA12F0 /* UIView+Snapshot.m */,
+				274E81711555C4C500BFB012 /* UIView+ResignFirstResponder.h */,
+				274E81721555C4C500BFB012 /* UIView+ResignFirstResponder.m */,
+				274E816D1555C4A300BFB012 /* KnockoffTableViewController.h */,
+				274E816E1555C4A300BFB012 /* KnockoffTableViewController.m */,
 				2725D37D151FF2A000AA12F0 /* Supporting Files */,
+				2759AC8F15311295009BAFFF /* HeaderView.xib */,
 			);
 			path = IVMAwesomesauce;
 			sourceTree = "<group>";
@@ -266,6 +284,7 @@
 				2725D3C7151FF61B00AA12F0 /* RootViewController.xib in Resources */,
 				2725D3C8151FF61E00AA12F0 /* NextViewController.xib in Resources */,
 				2725D3CA151FF6C000AA12F0 /* AwesomeSauce.jpeg in Resources */,
+				2759AC9015311295009BAFFF /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +328,7 @@
 				2725D3C2151FF57500AA12F0 /* NextViewController.m in Sources */,
 				2725D3C3151FF57500AA12F0 /* RootViewController.m in Sources */,
 				2725D3C4151FF57500AA12F0 /* UIView+Snapshot.m in Sources */,
+				2759AC8D1531126E009BAFFF /* HeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +343,8 @@
 				2725D3BD151FF45500AA12F0 /* NextViewController.m in Sources */,
 				2725D3BE151FF45500AA12F0 /* RootViewController.m in Sources */,
 				2725D3BF151FF45500AA12F0 /* UIView+Snapshot.m in Sources */,
+				274E816F1555C4A300BFB012 /* KnockoffTableViewController.m in Sources */,
+				274E81731555C4C500BFB012 /* UIView+ResignFirstResponder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +498,7 @@
 				2725D3A1151FF2A000AA12F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2725D3A2151FF2A000AA12F0 /* Build configuration list for PBXNativeTarget "IVMAwesomesauceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +507,7 @@
 				2725D3A4151FF2A000AA12F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

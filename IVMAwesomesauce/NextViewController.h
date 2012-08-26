@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface NextViewController : UIViewController
-
+@property( strong, nonatomic ) NSString *headerLabelText ;
 @end

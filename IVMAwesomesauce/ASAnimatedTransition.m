@@ -74,5 +74,6 @@
 		
 	// Add the animation view to the host layer, which will execute the animation once it becomes part of the view hierarchy
 	[self.hostView addSubview:animationView] ;
+	[self.hostView bringSubviewToFront:animationView] ;
 	}
 @end
